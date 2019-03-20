@@ -2,6 +2,7 @@
 Prosty algorytm FCFS w kolejce obsługi windy nie będzie działał.W przypadku gdy winda jedzie z 2 piętra do 9, a gdy znajduje się na 5 piętrze, winda otrzymała żądanie z piętra 8.
 W takim przypadku powinniśmy najpierw zatrzymać windę na 8 piętrze, a następnie jechać do piętra 10. 
 
+Wykorzytany algorytm:
 Każda winda ma 2 TreeSety pięter.Pierwszy TreeSet dla wszystkich żądań z pięter powyżej bieżacego piętra w porządku rosnącym.
 Drugi TreeSet dla wszystkich żądań z pięter poniżej bieżacego piętra w porządku malejącym.TreeSet pomaga również uniknąć duplikatów żądań.
 
