@@ -33,3 +33,6 @@ Tylko 1 winda porusza się w kierunku żądania.Przypisuje żądanie do danej wi
 
 Przypadek trzeci: 
 Żadne windy nie zostały uznane za spełniające wymagania. Może się zdarzyć tak, jeśli wszystkie windy znajdują się w stanie MAINTENANCE.Zwraca fałsz.
+
+# Uruchomienie programuu
+Żeby uruchomić program trzeba skompilować i uruchomić ElevatorSimulator.java.
