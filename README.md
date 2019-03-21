@@ -25,14 +25,14 @@ Nie przypisuje żądania do windy, jeśli znajduje się ona w stanie MAINTENANCE
 Wsród wszystkich wind z wyjątkiem powyższych, znajduje najbliższą windę poruszającą się w kierunku żądania lub która jest wolna.
 
 Przypadek pierwszy:
-Są 2 windy, 1 powyżej piętra z którego jest żądanie która zjeżdża w dół i 1 poniżej piętra z którego jest żądanie, która jedzie w górę. Metoda przypisuje żądanie do nabliższej z nich.Zwraca prawdę.
+Są 2 windy, 1 powyżej piętra z którego jest żądanie która zjeżdża w dół i 1 poniżej piętra z którego jest żądanie, która jedzie w górę. Metoda przypisuje żądanie do nabliższej z nich i zwraca prawdę.
                    
 Przypadek drugi:
-Tylko 1 winda porusza się w kierunku żądania.Przypisuje żądanie do danej windy.Zwraca prawdę.
+Tylko 1 winda porusza się w kierunku żądania.Przypisuje żądanie do danej windy i zwraca prawdę.
 
 
 Przypadek trzeci: 
-Żadne windy nie zostały uznane za spełniające wymagania. Może się zdarzyć tak, jeśli wszystkie windy znajdują się w stanie MAINTENANCE.Zwraca fałsz.
+Żadne windy nie zostały uznane za spełniające wymagania. Może się zdarzyć tak, jeśli wszystkie windy znajdują się w stanie MAINTENANCE wtedy mteoda zwraca fałsz.
 
 # Uruchomienie programuu
 Żeby uruchomić program trzeba skompilować i uruchomić ElevatorSimulator.java.
