@@ -18,11 +18,11 @@ Po zakończeniu obsługi wszystkich powyższych, pięter winda przechodzi do sta
     
 Przypadek trzeci:
 Winda jedzie w dół. Kontynuuje poruszanie się w tym kierunku, aż wszystkie piętra poniżej obecnych pięter będą obsłużone.
-Po zakończeniu serwisowania wszystkich pięter, winda przechodzi do stanu NONE.
+Po zakończeniu obsługi wszystkich pięter, winda przechodzi do stanu NONE.
 
 # Metoda pickUP i zbieranie zgłoszeń
 Nie przypisuje żądania do windy, jeśli znajduje się ona w stanie MAINTENANCE lub już obsługuje więcej niż średnią liczbę aktywnych żądań w systemie.
-Wsród wszystkich wind z wyjątkiem powyższych, znajduje najbliższą windę poruszającą się w kierunku żądania lub jest wolna.
+Wsród wszystkich wind z wyjątkiem powyższych, znajduje najbliższą windę poruszającą się w kierunku żądania lub która jest wolna.
 
 Przypadek pierwszy:
 Są 2 windy, 1 powyżej piętra z którego jest żądanie która zjeżdża w dół i 1 poniżej piętra z którego jest żądanie, która jedzie w górę. Metoda przypisuje żądanie do nabliższej z nich.Zwraca prawdę.
